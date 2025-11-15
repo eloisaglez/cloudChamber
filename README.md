@@ -47,46 +47,6 @@ Presión a altitud h:
   P(h) = P₀ × (1 - 0.0065×h/288.15)^5.255
 ```
 
-## 🌐 Cómo publicar en GitHub Pages
-
-### Opción 1: Repositorio nuevo
-
-1. Crea un nuevo repositorio en GitHub llamado `cansat-simulator`
-
-2. Sube el archivo `cansat_simulator.html` y renómbralo a `index.html`:
-   ```bash
-   git clone https://github.com/tu-usuario/cansat-simulator.git
-   cd cansat-simulator
-   cp cansat_simulator.html index.html
-   git add index.html
-   git commit -m "Add CanSat simulator"
-   git push
-   ```
-
-3. Ve a Settings → Pages → Source → selecciona `main` branch
-
-4. Tu simulador estará en: `https://tu-usuario.github.io/cansat-simulator/`
-
-### Opción 2: Repositorio existente
-
-1. Crea una carpeta `docs` en tu repositorio
-
-2. Copia `cansat_simulator.html` como `docs/index.html`
-
-3. En Settings → Pages → Source → selecciona `main` branch y `/docs` folder
-
-4. Estará en: `https://tu-usuario.github.io/nombre-repositorio/`
-
-### Opción 3: Más rápido (interfaz web)
-
-1. Ve a tu repositorio en GitHub
-
-2. Haz clic en "Add file" → "Upload files"
-
-3. Sube `cansat_simulator.html` y renómbralo a `index.html`
-
-4. Activa GitHub Pages en Settings → Pages
-
 ## 🎓 Uso Educativo
 
 ### Actividades sugeridas:
@@ -147,7 +107,7 @@ Si mejoras el simulador:
 ## 📧 Contacto
 
 Proyecto educativo - CanSat 3º ESO
-Departamento de Tecnología
+Departamento de Tecnología - IES Diego Velázquez
 
 ---
 
